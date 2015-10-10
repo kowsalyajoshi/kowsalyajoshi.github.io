@@ -11,4 +11,6 @@ $headers = 'From: support@ctrlthreads.co.in' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
 mail('support@ctrlthreads.co.in', 'Contact - Us Request', $emailBody, $headers); 
+
+header('Location: http://www.ctrlthreads.co.in/');
 ?>
